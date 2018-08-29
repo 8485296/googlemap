@@ -24,7 +24,7 @@ class HomeController extends Controller {
     }
 
     console.log('==========res', res);
-    ctx.body = res.data.data;
+    ctx.body = res.data;
   }
 }
 
