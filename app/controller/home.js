@@ -8,7 +8,7 @@ class HomeController extends Controller {
       ctx
     } = this;
     let keyword = encodeURIComponent(ctx.params.key);
-    let url = `https://maps.googleapis.com/maps/api/place/autocomplete/json?key=AIzaSyCFXnELZRjlL9KHLXH3p4UE52jYCgD9Tto&input=${keyword}`
+    let url = `https://maps.googleapis.com/maps/api/place/autocomplete/json?key=AIzaSyCFXnELZRjlL9KHLXH3p4UE52jYCgD9Tto&types=(cities)&language=zh-CN&input=${keyword}`
 
     let res;
 
