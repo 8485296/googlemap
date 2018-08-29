@@ -27,7 +27,7 @@ class HomeController extends Controller {
     ctx.body = {
       success: true,
       msg: 'ok!',
-      data: res.data,
+      data: res.data.data,
     };
   }
 }
